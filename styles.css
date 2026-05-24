@@ -262,3 +262,32 @@ body {
 }
 
 
+
+.personal-note__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.personal-note__text {
+  color: var(--secondary-text-color);
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.personal-note__list {
+  color: var(--secondary-text-color);
+  padding-left: 25px;
+}
+
+.personal-note__list li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contact-info__item:hover {
+  color: var(--text-decoration-color);
+}
+
+.resume {
+  border-radius: 12px;
+}
